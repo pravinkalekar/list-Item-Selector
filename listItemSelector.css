@@ -1,0 +1,105 @@
+.listItemSelector {
+	padding: 10px;
+}
+
+.listItemSelector table th {
+	text-align: center;
+	padding: 5px;
+	color: #2783B0;
+	font-size: 13px;
+	font-weight: bold;
+	text-shadow: 0 -1px 1px white;
+}
+
+.listItemSelector .listPanel {
+	height: 150px;
+	width: 250px;
+	background-color: white;
+	padding: 2px;
+	border-width: 1px;
+	border-style: solid;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
+	border-color: #C5C5C5;
+	display: inline-block;
+	overflow-y: scroll;
+}
+
+.listItemSelector .listPanel ul {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	text-decoration: none;
+	font-size: 100%;
+	list-style: none;
+}
+
+.listItemSelector .listPanel ul li {
+	padding: 1px 10px;
+	line-height: 1.8em;
+	cursor: pointer;
+	text-align: left;
+	
+}
+
+.listItemSelector .listPanel ul li:hover {
+	background-color: #A99F9A;
+}
+
+/* #unassociatedList {
+	margin-left: 50px;
+} */
+.listItemSelector .controlsPanel {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+}
+
+.listItemSelector .controlsPanel .buttonControl {
+	width: 50% !important;
+	margin-bottom: 10px;
+	background: #117ED2;
+	background: -moz-linear-gradient(top, #37AAEA, #117ED2);
+	background: -ms-linear-gradient(top, #37AAEA, #117ED2);
+	background: -o-linear-gradient(top, #37AAEA, #117ED2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#37AAEA),
+		to(#117ED2));
+	background: -webkit-linear-gradient(top, #37AAEA, #117ED2);
+	background: linear-gradient(to bottom, #37AAEA, #117ED2);
+	border: 1px solid #4C88BC;
+	border-radius: 18px;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2);
+	font-size: 13px;
+	color: white;
+	text-shadow: 0 -1px 1px #666;
+	cursor: pointer;
+}
+
+.listItemSelector .controlsPanel .buttonControl:hover {
+	color: white;
+	background: #0351B7;
+	background: -moz-linear-gradient(top, #2F90D5, #0351B7);
+	background: -ms-linear-gradient(top, #2F90D5, #0351B7);
+	background: -o-linear-gradient(top, #2F90D5, #0351B7);
+	background: -webkit-gradient(linear, left top, left bottom, from(#2F90D5),
+		to(#0351B7));
+	background: -webkit-linear-gradient(top, #2F90D5, #0351B7);
+	background: linear-gradient(to bottom, #2F90D5, #0351B7);
+}
+
+.listItemSelector .controlsPanel .buttonControl:active {
+	color: white;
+	box-shadow: 0 1px 0 #fff, inset 0 0 9px rgba(0, 0, 0, .5);
+}
+
+.listItemSelector .selectedListItem {
+	background-color: #A0A0A0;
+}
+.listItemSelector .listSelectorTitle{
+	padding-bottom: 10px;
+}
