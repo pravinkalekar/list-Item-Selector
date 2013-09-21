@@ -21,9 +21,17 @@ So, you can -
 You can pass the following parameters within the Options object-
 
     options : {
-        listBox : {
-            height : 150,
-            width : 250
-        },
-        listSelectorTitle : "Title"
-    }
+		listBox : {
+				height : 150,
+				width : 250
+			},
+			controls : {
+				moveAllRight : true,
+				moveRight : true,
+				moveLeft : true,
+				moveAllLeft : true
+			},
+			listSelectorTitle : "Title",
+			leftArray : [],
+			rightArray: []
+	}
