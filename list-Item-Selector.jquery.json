@@ -2,7 +2,7 @@
   "name": "list-Item-Selector",
   "title": "List Item Selector Plugin",
   "description": "This is a jQuery plug-in for list items selector.There would be list on the left hand side, you can select and move the items you want to the right hand side.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/pravinkalekar/list-Item-Selector",
   "author": {
     "name": "Pravin Kalekar",
